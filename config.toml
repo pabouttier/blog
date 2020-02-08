@@ -1,5 +1,23 @@
 baseURL = "http://pa.bouttier.me"
 languageCode = "fr-fr"
-title = "Carnet de bord"
+title = "Carnet de notes"
+copyright = "This is a customized copyright."
+disableKinds = ["section"]
 theme = "diary"
+# googleAnalytics = "UA-123-45"
 
+[params]
+subtitle = "Vous pouvez m'appeler P-A"
+
+[taxonomies]
+   tag = "tags"
+   category = "categories"
+
+[[menu.main]]
+url = "/categories"
+name = "Categories"
+weight = 2
+[[menu.main]]
+url = "/tags"
+name = "Tags"
+weight = 1
