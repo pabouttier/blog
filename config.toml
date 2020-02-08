@@ -1,4 +1,5 @@
 baseURL = "http://pa.bouttier.me"
 languageCode = "fr-fr"
 title = "Carnet de bord"
-theme = "aether"
+theme = "diary"
+
